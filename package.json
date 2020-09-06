@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-starter-base",
+  "version": "0.3.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "dev": "gatsby clean && gatsby develop",
+    "preview": "gatsby build && gatsby serve",
+    "commit": "gacp"
+  },
+  "dependencies": {
+    "@reflexjs/gatsby-theme-base": "^0.3.3",
+    "gatsby": "^2.22.11",
+    "isomorphic-unfetch": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typeface-inter": "^3.12.0"
+  },
+  "gacp": {
+    "add": true,
+    "push": true,
+    "emoji": "code",
+    "editor": false,
+    "hooks": {
+      "postpush": ""
+    }
+  },
+  "devDependencies": {
+    "gacp": "^2.10.0"
+  }
+}
